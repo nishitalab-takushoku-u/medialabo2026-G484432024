@@ -1,0 +1,19 @@
+
+h1 {
+    color: white;
+	text-shadow: plum 0px 0px 10px;
+}
+
+div#gakushu {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: aquamarine;
+}
