@@ -24,6 +24,7 @@ div#zentai {
 	grid-template-columns: repeat(2, 1fr);
 	grid-gap: 10px;
 	height: 200px;
+	width: 1025px;
 }
 
 div#zentai > div {
