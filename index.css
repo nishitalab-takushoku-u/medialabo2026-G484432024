@@ -34,7 +34,12 @@ h2 {
 }
 
 h3 {
-    color: #ffffff;
+    color: #101020;
+    background-color: #00ffff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 div#gakushu {
