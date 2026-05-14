@@ -22,6 +22,7 @@ h2 {
 div#zentai {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1fr 1fr;
 	grid-gap: 10px;
 	height: 200px;
 	width: 1025px;
