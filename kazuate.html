@@ -8,11 +8,15 @@
     <script src="kazuate.js" defer></script>
   </head>
 
-　　<body>
+    <body>
     <h1>数当てゲーム</h1>
     <p>
+        <div>1から10までの整数を1つ入力してください↓</div>
+        <div>3回以内に当ててみましょう</div>
         <span id="kaisu">1</span>回目の予想: 
         <!-- ここにテキストボックスとボタンを設置 -->
+         <input type = "text" id = "guess" size = "3">
+         <button id="btn">回答</button>
     </p>
     <p id="result">ここに判定結果を表示します</p>
 </html>
