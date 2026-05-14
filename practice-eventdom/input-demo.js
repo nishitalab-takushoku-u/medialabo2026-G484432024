@@ -3,4 +3,4 @@ function greeting() {
 }
 
 let b = document.querySelector("button#print");
-    b.addEventListener("click", greeting);
+b.addEventListener("click", greeting);
