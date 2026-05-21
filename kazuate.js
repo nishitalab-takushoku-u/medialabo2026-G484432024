@@ -12,8 +12,9 @@ let kaisu = 0;
 // ボタンを押した後の処理をする関数 hantei() の定義
 function hantei() {
   // ここから: 予想回数を1増やして，span#kaisu 要素のテキストを更新
-let kaisu = document.querySelector('span#kaisu');
-kaisu.textContent = parseInt(kaisu.textContent) + 1;
+kaisu = kaisu + 1;
+let kaisu2 = document.querySelector('span#kaisu');
+kaisu2.textContent = kaisu + 1;
   // ここまで: 予想回数を1増やして，span#kaisu 要素のテキストを更新
   
   // ここから: テキストボックスに指定された数値を yoso に代入する
